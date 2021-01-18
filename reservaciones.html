@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="styles/estilo.css">
+</head>
+
+<body>
+	<header >
+    <nav class="navegacion">
+      <ul class="imagen1"> <img src="img/Screenshot_1.jpg" alt="Restaurante" width="146" height="66"></ul>
+       <ul class="menu">
+         <li><a href="index.html.html">Inicio</a></li>
+        <li><a href="menu.html">informacion</a></li>
+        <li><a href="ubicacion.html">Ubicacion</a></li>
+        <li><a href="index.html">Contacto</a></li>
+      </ul>
+  </nav> 
+</header>
+
+<div class="cuerpo">
+  
+  <div class="titulo">
+    <div class="titulo-form"><h2>Formulario de Reservaciones</h2></div>
+    <div class="titulo-mesas"><h2>Seleccione su mesa</h2></div>	  
+  </div>
+  <div class="reserva">
+    <form name="form1" action="registrar.php" class="formulario"  method="post" onsubmit="return validar();">
+      <div class="caja">
+        
+        <label for="nombre" class="campo">Nombres:</label>
+        <input id="nom" name="nombre" class="casilla" type="text" placeholder="Ingrese su nombre" value="" required>
+
+        <label for="apellido" class="campo">Apellidos:</label>
+        <input id="ape" name="apellido" class="casilla" type="text" placeholder="Ingrese sus apellidos" value="" required>
+
+        <label for="telefono" class="campo">Telefono:</label>
+        <input id="tel" name="telefono" class="casilla" type="text" placeholder="Ingrese su numero telefonico" value="" required>
+
+        <label for="persnonas" class="campo">Cant. de Personas:</label>
+        <input id="num" name="personas" class="casilla2" type="number" placeholder="1" min="1" max="6" value="" required>
+
+        <label for="hora" class="campo">Horario</label>
+        <input id="hrs" name="hora" class="casilla2" type="time" min="10:00:00" max="19:00:00" step="1" value="" required>
+      
+        <label for="fecha" class="campo">Fecha</label>
+        <input id="fec" name="fecha" class="casilla2" type="date" value="" required="">
+
+        <input type="hidden" name="caja-mesa" class="caja-mesa" id="caja-mesa" value="">
+
+      <button class="enviar" id="boton1" value="">Enviar</button>
+      </div>
+    </form> 
+      <div class="mesa">
+        <div class="fila1">
+          <div class="mesa1"><input type="image" name="img1" class="img1" src="img/mesastrue.png"></div>
+          <div class="mesa2"><input type="image" name="img2" class="img2" src="img/mesastrue.png"></div>
+          <div class="mesa3"><input type="image" name="img3" class="img3" src="img/mesastrue.png"></div>
+        </div>
+        <div class="fila2">
+          <div class="mesa4"><input type="image" name="img4" class="img4" id="img4" src="img/mesastrue.png"></div>
+          <div class="mesa5"><input type="image" name="img5" class="img5" src="img/mesastrue.png"></div>
+          <div class="mesa6"><input type="image" name="img6" class="img6" src="img/mesastrue.png"></div>
+        </div>
+    
+      </div>
+
+     
+  </div> 
+  
+</div>
+
+<script src="js/script.js"></script>
+<script>
+  let mesaseleccionada;
+let mesa1 = document.querySelector('.mesa1');
+let mesa2 = document.querySelector('.mesa2');
+let mesa3 = document.querySelector('.mesa3');
+let mesa4 = document.querySelector('.mesa4');
+let mesa5 = document.querySelector('.mesa5');
+let mesa6 = document.querySelector('.mesa6');
+
+mesa1.addEventListener('click', function(e) {
+  mesaseleccionada = 1;
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+
+});
+
+
+mesa2.addEventListener('click', function(e) {
+  mesaseleccionada = 2;
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+});
+
+
+mesa3.addEventListener('click', function(e) {
+  mesaseleccionada = 3;
+
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+});
+
+
+mesa4.addEventListener('click', function(e) {
+  mesaseleccionada = 4;
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+});
+
+mesa5.addEventListener('click', function(e) {
+  mesaseleccionada = 5;
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+});
+
+mesa6.addEventListener('click', function(e) {
+  mesaseleccionada = 6;
+  console.log('mesa seleccionada: ' + mesaseleccionada);
+  document.getElementById('caja-mesa').value=mesaseleccionada;
+  e.stopPropagation();
+});
+
+</script>
+ 
+</body>
+</html>

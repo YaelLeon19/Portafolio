@@ -1,0 +1,81 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Lyster;
+    src: url(../Lyster_PERSONAL_USE_ONLY.ttf);
+}
+h2{
+    text-align: center;
+    font-family: Lyster;
+}
+body,html{
+    background: #240202;
+    
+    color: white;
+}
+.container{
+    font-family: Poppins;
+    top: 20px;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.container .listimage{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .listimage li{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.container .listimage li .containerimage{
+    width: 250;
+    height: 270px;
+    background: honeydew ;
+    border-radius: 5px;
+}
+.container .listimage li .containerimage img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 250px;
+    height: 175px;
+}
+.container .listimage li .containerimage .informacion{
+    display: relative;
+
+    width: 100%;
+    height: 40px;
+    background: none;
+    color: black;
+    
+    
+}
+.container .listimage li .containerimage .informacion .nameimg{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.container .listimage li .containerimage .informacion .view{
+    display: block;
+    margin-top: 10px;
+    right: 5px;
+    padding: 6px 12px;
+    height: 20px;
+    width: auto;
+    text-decoration: none;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 90px;
+    border: 2px solid rgb(75, 18, 18);
+    background-color: #4e1622;
+    justify-content: center;
+    text-align: center;
+}

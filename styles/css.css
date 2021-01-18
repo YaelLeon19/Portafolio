@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2B0909;
+}
+
+    .navegacion {
+        width: 1000px;
+        height: 66px;
+        margin: 50px auto;
+        background-color: rgb(63, 21, 10);
+    }
+
+    .navegacion ul {
+        list-style: none;
+        text-align: right;
+    }
+
+.imagen1 {
+    padding: 0px;
+    width: 8px;
+    height: 2px;
+}
+
+.menu>li {
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.contenedor,
+.contenedor-inicio {
+    display: flex;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin: 50px auto;
+    width: 1000px;
+    height: 250px;
+    border-radius: 3px;
+}
+.reco h2 {
+    margin-top: 10px;
+    width: 120px;
+    height: 19px;
+    color: darkgray;
+    margin-left: 25px;
+    font-family: 'Muli';
+    font-size: 15px;
+}
+
+.inicio h2 {
+    margin-top: 10px;
+    width: 120px;
+    height: 19px;
+    color: darkgray;
+    margin-left: 25px;
+    font-family: 'Muli';
+    font-size: 15px;
+}
+
+.saludo {
+    font-family: 'Muli Bold';
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 19px;
+    text-align: left;
+    color: dimgray;
+}
+
+.conti {
+    font-family: 'Muli';
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 19px;
+    color: dimgray;
+}
+
+.imagen {
+    display: block;
+    margin-left: 155px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.btnboton {
+    margin-left: 25px;
+    background-color: #913927;
+    font-family: 'Muli';
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+}
+
+.texto {
+    display: block;
+    align-items: center;
+}
+
+.reco {
+    text-align: center;
+    width: 1000px;
+    height: 35px;
+    margin-top: 20px;
+    margin: 50px auto;
+    background-color: rgb(63, 21, 10);
+    border-radius: 100px;
+}
+
+.reco>li>a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: s 'Muli Bold';
+    text-decoration: none;
+}
+
+.tabla {
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Muli';
+}
+
+.imagen2 {
+    border-radius: 10px;
+}
+
+.imagen3 {
+    padding-left: 5px;
+    border-radius: 50px;
+}
+
+.imagen4 {
+    padding-left: 5px;
+    border-radius: 50px;
+}
+
+.comida1>p {
+    background-color: #ffffff;
+    text-align: center;
+    height: 100px;
+    width: 332px;
+    border-radius: 10px;
+}
+
+.comida2>p {
+    background-color: #ffffff;
+    text-align: center;
+    width: 332px;
+    height: 100px;
+    ;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.comida3>p {
+    background-color: #ffffff;
+    text-align: center;
+    width: 332px;
+    height: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+.site-footer {
+    background-color: rgb(63, 21, 10);
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.site-footer p {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.site-footer p span {
+    font-weight: 700;
+}
+
+.abc {
+    margin-left: 265px;
+}
+
+.comida {
+    padding-top: 0;
+    font-family: 'Muli';
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.conocenos {
+    background-color: #ffffff;
+    height: 799px;
+    width: 320px;
+}
+
+.cono {
+    font-family: 'Muli';
+    font-size: 12px;
+    color: black;
+}
+
+.padre {
+    border: 1px;
+    display: block;
+    width: auto;
+    margin: auto;
+    padding: 20px, 20px;
+    text-align: justify;
+}
+
+.titulo1 {
+    float: left;
+    background-color: #510c0f;
+    text-align: center;
+    padding: 15px 20px;
+    width: 650px;
+    margin-top: 40px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+
+.cont {
+    float: left;
+    background: #95989a;
+    text-align: center;
+    padding: 15px 20px;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: black;
+    opacity: 0.66;
+}
+
+.titulo2 {
+    float: left;
+    background-color: #510c0f;
+    text-align: center;
+    padding: 15px 20px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 250px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+
+.cont2 {
+    float: left;
+    background: #95989a;
+    text-align: center;
+    padding: 15px 20px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 250px;
+    color: black;
+    opacity: 0.66;
+}
+
+.tm {
+    font-size: 36px;
+    font-family: Blackadder ITC;
+}
+
+.tf {
+    font-size: 30px;
+    font-family: Blackadder ITC;
+}
+
+.des {
+    font-size: 24px;
+    font-family: Blackadder ITC;
+}
+
+.carac {
+    font-size: 18px;
+    font-family: Blackadder ITC;
+}
+
+@media(max-width: 768px) {
+    .contenedor-inicio {
+        margin-left: auto;
+        overflow: auto;
+        display: block;
+        text-align: center;
+    }
+    .imagen img {
+        width: 50%;
+        height: 20%;
+        margin: 50px auto;
+    }
+    .saludo {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
+
+@media(max-width: 1000px) {
+    .contenedor-inicio {
+        margin-left: 10px;
+        width: auto;
+        height: auto;
+    }
+    .contenedor-inicio div {
+        width: auto;
+        margin: 5px 10px;
+    }
+    .navegacion {
+        width: auto;
+    }
+    .reco {
+        width: auto;
+    }
+    .saludo {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width:600px) {
+    .navegacion {
+        overflow: auto;
+        height: auto;
+    }
+    .navegacion li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen img {
+        width: 50%;
+        height: 20%;
+        margin: 50px auto;
+    }
+}

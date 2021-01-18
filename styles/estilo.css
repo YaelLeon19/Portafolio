@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color:#2B0909;
+}
+.navegacion{
+    width: 1000px;
+    height: 66px;
+    margin: 50px auto;
+    background-color: #631C0A;
+}
+.navegacion ul{
+    list-style: none;
+    text-align: right;
+}
+.imagen1{
+    padding: 0px;
+    width: 8px;
+    height: 2px;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu> li> a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.padre{
+    border: 1px;
+    display: block;
+    width: auto;
+    margin: auto;
+    padding: 20px, 20px;
+    text-align: justify;
+}
+.titulo1{
+    float: left;
+    background-color: #510c0f;
+    text-align: center;
+    padding: 15px 20px;
+    width: 650px;
+    margin-top: 40px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+.cont{
+    float: left;
+    background: #95989a;
+    text-align: center;
+    padding: 15px 20px;
+    width: 650px;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: black;
+    opacity: 0.66;    
+}
+.titulo2{
+    float: left;
+    background-color: #510c0f;
+    text-align: center;
+    padding: 15px 20px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 250px;
+    color: #FFFFFF;
+    opacity: 0.66;
+}
+
+.cont2{
+    float: left;
+    background: #95989a;
+    text-align: center;
+    padding: 15px 20px;
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 250px;
+    color: black;
+    opacity: 0.66;    
+}
+.tm{
+    font-size: 36px;
+    font-family: Blackadder ITC;
+}
+.tf{
+    font-size: 30px;
+    font-family: Blackadder ITC;
+}
+.des{
+    font-size: 24px;
+    font-family: Blackadder ITC;
+}
+.carac{
+    font-size: 18px;
+    font-family: Blackadder ITC;
+}
+
+#map{
+    margin-left: 275px;
+}
+.reserva{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.titulo{
+    display: block;
+}
+.titulo h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.titulo-form{
+    margin-left: 150px;
+    float: left;
+}
+.titulo-mesas{
+    margin-right: 300px;
+    float: right;
+}
+.caja{
+    height: auto;
+    width: 50%;
+    float: left;
+    
+    padding: 20px, 20px;
+    text-align: justify;
+    color: white;
+}
+
+.campo{
+    margin-left: 150px;
+}
+
+.casilla{
+    padding: 10px 10px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.casilla2{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.enviar{
+    padding: 10px 10px;
+    background: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.mesa{
+    float: right;
+    display: block;
+    width: 50%;
+    height: 525px;
+}
+
+.tabla-mesas{
+    padding-left: 100px;
+    position: relative;
+
+}
+.mesa1, .mesa2, .mesa3{
+    float: left;
+    padding-left: 20px;
+}
+.img1{
+    width: 230px;
+    height: 200px;
+}
+.img2{
+    width: 230px;
+    height: 200px;
+}
+.img3{
+    width: 230px;
+    height: 200px;
+}
+.mesa4, .mesa5, .mesa6{
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.img4{
+    width: 230px;
+    height: 200px;
+}
+.img5{
+    width: 230px;
+    height: 200px;
+}
+.img6{
+    width: 230px;
+    height: 200px;
+}
